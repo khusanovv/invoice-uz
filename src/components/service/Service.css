@@ -1,0 +1,76 @@
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 85px;
+  gap: 100px;
+}
+.service-title {
+  margin-top: -50px;
+}
+.service-title h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 49px;
+  color: #4c5a73;
+}
+.service-title h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 58px;
+  max-width: 600px;
+
+  color: #000000;
+
+  opacity: 0.87;
+}
+.service-title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 39px;
+  max-width: 550px;
+
+  color: #000000;
+
+  opacity: 0.87;
+}
+.service-comfort {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  text-align: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+.cart-item {
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.075);
+  border-radius: 25px;
+  height: 300px;
+  width: 240px;
+  padding: 5px;
+}
+.cart-item--margin {
+  margin-top: 80px;
+}
+.cart-item h4 {
+  margin-top: 10px;
+}
+.cart-item p {
+  max-width: 240px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.cart-item img {
+  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+}
+.cart-item--marginb {
+  margin-top: -50px;
+}

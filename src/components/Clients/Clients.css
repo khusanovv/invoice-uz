@@ -1,0 +1,41 @@
+.clients {
+  padding: 12px 85px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.client-title h4 {
+  font-size: 30px;
+  line-height: 49px;
+
+  color: #4c5a73;
+}
+.client-title h3 {
+  font-size: 54px;
+  line-height: 68px;
+  margin-top: -20px;
+}
+.client-logo {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-top: 20px;
+}
+.logo-item--width {
+  max-width: 400px;
+}
+.logo-item--width img {
+  max-width: 90% !important;
+}
+.logo-item {
+  margin: 0;
+  padding: 0;
+}
+.logo-item img {
+  max-width: 70%;
+  margin: 0;
+  padding: 0;
+}

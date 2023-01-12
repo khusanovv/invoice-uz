@@ -1,0 +1,135 @@
+.instruction {
+  padding: 12px 85px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+
+  color: #000000;
+}
+.instruction-title h4 {
+  font-size: 28px;
+  line-height: 49px;
+
+  color: #4c5a73;
+}
+
+.instruction-title h3 {
+  font-size: 48px;
+  line-height: 68px;
+
+  opacity: 0.87;
+}
+.instruction-title p {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  max-width: 500px;
+
+  opacity: 0.87;
+}
+.instruction-cart {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.cart-items {
+  width: 350px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.116);
+  border-radius: 25px;
+  padding: 22px;
+  margin-top: 34px;
+  position: relative;
+}
+.cart-items:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  background: url("../../image/icon/Arrow-1.png");
+  width: 220px;
+  height: 120px;
+  top: 100%;
+  background-size: cover;
+}
+.cart-items:nth-child(2) {
+  top: 50px;
+}
+.cart-items:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  background: url("../../image/icon/Arrow-2.png");
+  width: 200px;
+  height: 90px;
+  background-size: cover;
+}
+.cart-items:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30%;
+  background-image: url("../../image/icon/Arrow-3.png");
+  width: 85px;
+  height: 330px;
+  background-size: cover;
+}
+.cart-items:nth-child(4) {
+  margin-top: 100px;
+  left: 60px;
+}
+.cart-items:nth-child(5)::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: -70%;
+  background: url("../../image/icon/Arrow-4.png");
+  width: 195px;
+  height: 130px;
+  background-size: cover;
+}
+.cart-items:nth-child(5) {
+  grid-column: 3;
+  left: -50px;
+}
+.cart-items .items-number--right {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  font-size: 48px;
+}
+.cart-item--left {
+  margin-left: 60px;
+}
+.cart-items .items-number--left {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  font-size: 48px;
+}
+
+.cart-items h3 {
+  font-size: 30px;
+  line-height: 39px;
+
+  color: #000000;
+
+  opacity: 0.87;
+}
+.cart-items p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  margin-top: 12px;
+
+  color: #000000;
+
+  opacity: 0.87;
+  padding-bottom: 10px;
+}
