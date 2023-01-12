@@ -18,12 +18,14 @@
 }
 .client-logo {
   list-style: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: 15% 20% 20% 20%;
   justify-content: center;
   align-items: center;
   gap: 35px;
   margin-top: 20px;
 }
+
 .logo-item--width {
   max-width: 400px;
 }
@@ -38,4 +40,19 @@
   max-width: 70%;
   margin: 0;
   padding: 0;
+}
+@media screen and (max-width: 800px) {
+  .clients {
+    text-align: center;
+  }
+  .client-logo {
+    grid-template-columns: auto auto;
+  }
+  .client-title h4 {
+    font-size: 26px;
+  }
+  .client-title h3 {
+    font-size: 44px;
+    line-height: 58px;
+  }
 }

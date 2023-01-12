@@ -42,7 +42,10 @@
   max-width: 250px;
 }
 .contact-cart__item img {
-  max-width: 55%;
+  max-width: 45%;
+}
+.image {
+  max-width: 65px !important;
 }
 .contact-cart__item h3 {
   font-size: 32px;
@@ -60,4 +63,44 @@
   padding-bottom: 30px;
 
   color: #ffffff;
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 12px 35px;
+  }
+  .footer-nav-link {
+    font-size: 16px;
+  }
+  .contact-cart__item h3 {
+    font-size: 22px;
+  }
+  .contact-cart__item img {
+    max-width: 50px;
+  }
+  .image {
+    max-width: 50px !important;
+  }
+  .logo {
+    max-width: 80px;
+  }
+  .contact-cart__item p {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer-contact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-cart__item {
+    margin-top: 20px;
+  }
+  .footer-nav-link {
+    gap: 20px;
+  }
+  .invoice-uz {
+    font-size: 14px;
+  }
 }

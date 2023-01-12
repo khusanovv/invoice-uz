@@ -1,5 +1,6 @@
 import React from "react";
 import "./TariffPlans.css";
+import { useState, useEffect } from "react";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,6 +13,15 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 
 const TariffPlans = () => {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setLoading(false);
+    let screenA = 800;
+    if (window.screen.width > screenA) {
+      setLoading(true);
+    }
+  }, [setLoading]);
+
   return (
     <div>
       <div className="tariff-plans">
@@ -22,7 +32,7 @@ const TariffPlans = () => {
         </div>
 
         <Swiper
-          slidesPerView={3}
+          slidesPerView={loading ? 3 : 1}
           spaceBetween={14}
           slidesPerGroup={3}
           className="swiper"
