@@ -18,7 +18,7 @@
   opacity: 0.87;
 }
 .intro-img {
-  width: 500px;
+  width: auto;
   margin-top: 20px;
 }
 .intro-img img {
@@ -44,4 +44,34 @@
   background-color: #ffffff;
   color: #4c5a73;
   border: 1px solid #4c5a73;
+}
+
+@media screen and (max-width: 1100px) {
+  .intro-title {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .intro-img img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .intro {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .intro-img img {
+    max-width: 450px;
+  }
+  .intro-title {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .intro-img img {
+    max-width: 300px;
+    max-height: 300px;
+  }
 }

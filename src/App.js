@@ -1,8 +1,8 @@
 import "./App.css";
 import Header from "./components/header/Header";
 // import Instruction from "./components/instruction/Instruction";
-// import Intro from "./components/intro/Intro";
-// import Service from "./components/service/Service";
+import Intro from "./components/intro/Intro";
+import Service from "./components/service/Service";
 import { useState, useEffect } from "react";
 
 import { Dna } from "react-loader-spinner";
@@ -38,12 +38,12 @@ function App() {
       ) : (
         <>
           <Header />
-          {/* <Intro />
+          <Intro />
           <Service />
-          <Instruction />
-          <TariffPlans />
-          <Clients />
-          <Footer /> */}
+          {/* <Instruction /> */}
+          {/* <TariffPlans /> */}
+          {/* <Clients /> */}
+          {/* <Footer /> */}
         </>
       )}
     </div>

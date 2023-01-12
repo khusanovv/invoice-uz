@@ -8,7 +8,18 @@ const Header = () => {
 
   return (
     <div>
-      {isOpen ? <div className="header-menu"></div> : null}
+      {isOpen ? (
+        <div className="header-menu">
+          <ul className="link">
+            <li className="link-item">Главная</li>
+            <li className="link-item">Информация</li>
+            <li className="link-item">Контакты</li>
+            <li className="link-item">Тарифы</li>
+            <li className="link-item">Клиенты</li>
+            <button className="menu-btn">Авторизоваться</button>
+          </ul>
+        </div>
+      ) : null}
 
       <div className="header">
         <div className="header-logo">

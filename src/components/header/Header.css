@@ -53,9 +53,9 @@
 .header-menu {
   width: 50%;
   height: 100vh;
-  background-color: #0000007e;
+  background-color: #000000b5;
   position: fixed;
-  transition: 4s;
+  transition: 1s;
   display: none;
 }
 .open-menu {
@@ -66,6 +66,27 @@
   display: none;
 }
 
+.link {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.menu-btn {
+  position: absolute;
+  bottom: 30px;
+  padding: 8px 18px;
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0);
+}
 @media screen and (max-width: 1100px) {
   .header {
     padding: 10px 25px;
