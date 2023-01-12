@@ -51,12 +51,13 @@
 }
 
 .header-menu {
-  width: 50%;
+  width: 70%;
   height: 100vh;
-  background-color: #000000b5;
+  background-color: #000000f0;
   position: fixed;
   transition: 1s;
   display: none;
+  z-index: 54;
 }
 .open-menu {
   font-size: 24px;
@@ -64,6 +65,15 @@
   border: none;
   color: #ffffff;
   display: none;
+}
+.close-btn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border: none;
 }
 
 .link {

@@ -18,6 +18,14 @@ const Header = () => {
             <li className="link-item">Клиенты</li>
             <button className="menu-btn">Авторизоваться</button>
           </ul>
+          <button
+            onClick={() => {
+              setIsOpen(false);
+            }}
+            className="close-btn"
+          >
+            X
+          </button>
         </div>
       ) : null}
 
@@ -35,7 +43,7 @@ const Header = () => {
           </ul>
           <button className="nav-btn">Авторизоваться</button>
           <button onClick={() => setIsOpen(!isOpen)} className="open-menu">
-            {isOpen ? "X" : <AiOutlineBars />}
+            {isOpen ? "" : <AiOutlineBars />}
           </button>
         </div>
       </div>
