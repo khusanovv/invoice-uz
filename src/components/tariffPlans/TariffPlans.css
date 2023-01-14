@@ -59,6 +59,7 @@
   transform: scale(1.1);
   border-radius: 15px;
 }
+
 .btn-active {
   background-color: #fff !important;
   color: #000000 !important;

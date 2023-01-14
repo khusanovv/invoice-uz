@@ -22,31 +22,32 @@ const Instruction = () => {
           </div>
           <div className="cart-items">
             <h3 className="cart-item--left">
-              Создайте необходимый документ{" "}
+              Выберите тип документа{" "}
               <span className="items-number--left">2</span>
             </h3>
-            <p>Войдите на сайт и создайте необходимый документ</p>
+            <p>Выберите необходимый тип документа в разделе выбора</p>
           </div>
           <div className="cart-items">
             <h3>
-              Создайте необходимый документ{" "}
-              <span className="items-number--right">3</span>
+              Заполните документ <span className="items-number--right">3</span>
             </h3>
-            <p>Войдите на сайт и создайте необходимый документ</p>
+            <p>Заполните все необходимые поля вашего Документа</p>
           </div>
           <div className="cart-items">
             <h3>
-              Создайте необходимый документ{" "}
-              <span className="items-number--right">5</span>
+              Ваш документ готов <span className="items-number--right">5</span>
             </h3>
-            <p>Войдите на сайт и создайте необходимый документ</p>
+            <p>
+              Ваш документ должны обработать, после чего можете забрать готовый
+              документ
+            </p>
           </div>
           <div className="cart-items">
             <h3 className="cart-item--left">
-              Создайте необходимый документ{" "}
+              Сохраните ваш документ{" "}
               <span className="items-number--left">4</span>
             </h3>
-            <p>Войдите на сайт и создайте необходимый документ</p>
+            <p>Сохраните ваш документ Сохраните заполненный вами документ</p>
           </div>
         </div>
       </div>

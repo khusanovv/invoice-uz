@@ -6,13 +6,12 @@
   align-items: center;
 }
 .intro-title {
-  width: 60%;
+  max-width: 50%;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 34px;
   line-height: 45px;
-
   color: #000000;
 
   opacity: 0.87;

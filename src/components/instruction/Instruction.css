@@ -116,7 +116,7 @@
 .cart-items h3 {
   font-size: 30px;
   line-height: 39px;
-
+  max-width: 200px;
   color: #000000;
 
   opacity: 0.87;

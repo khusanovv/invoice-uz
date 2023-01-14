@@ -9,8 +9,8 @@ import Icon4 from "../../image/icon/Icon-4.png";
 const Service = () => {
   return (
     <div>
-      <div className="service">
-        <div className="service-title">
+      <div className="service animate__animated animate__fadeInUp">
+        <div className="service-title  ">
           <h4>О сервисе</h4>
           <h3>Основные преимущества сервиса</h3>
           <p>Справа перечисленны основные преимущества сервиса E-invoice</p>
